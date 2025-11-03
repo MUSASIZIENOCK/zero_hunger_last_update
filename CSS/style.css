@@ -1,0 +1,203 @@
+body{
+    background: rgb(214, 204, 206);
+    font-family: verdana, tahoma;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+}
+header{
+    background: rgb(197, 184, 186);
+border-radius: 10px;
+text-align: center;
+}
+header img{
+    width: 200px;
+    background: transparent;
+}
+.intro{
+    text-align: center;
+}
+ button{
+    background-color: cadetblue;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
+.media{
+    display: flex;
+    text-align: center;
+    
+}
+.media img{
+    width: 400px;
+}
+.solns img{
+    width: 400px;
+}
+.impact img{
+    width: 400px;
+}
+
+.meal, .field, .crops{
+border-radius: 10px;
+background: rgb(197,184,186);
+margin: 10px;
+text-align: center;
+}
+.solns{
+    display: flex;
+    border-radius: 10px;
+}
+.practices,.people,.nutrition{
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(197, 184, 184);
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+.impact{
+    display: flex;
+    text-align: center;
+}
+.classroom,.fields,.food{
+    border-radius: 10px;
+    background: rgb(197, 184, 186);
+    margin: 10px;
+}
+footer{
+    background: rgb(197, 184, 186);
+    border-radius: 10px;
+}
+.causes{
+    text-align: center;
+}
+
+.container h2 p{
+    text-align: center;
+}
+
+@media (max-width:800px){
+    body{
+    background: rgb(214, 204, 206);
+    font-family: verdana, tahoma;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+    width: 70%;
+    }
+    .media{
+    display: block;
+    text-align: center;
+    width: 280px;
+    }
+    .media img{
+    width: 600px;
+    width: 80%;
+    }
+.vid{
+    border-radius: 10px;
+    width: 250px;
+}
+.solns{
+    display: block;
+}
+.solns img{
+    width: 200px;
+}
+.impact {
+    display: block;
+}
+.impact img{
+  width: 200px;
+}
+}
+@media(min-width:800px){
+body{
+    background: rgb(214, 204, 206);
+    font-family: verdana, tahoma;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+}
+header{
+    background: rgb(197, 184, 186);
+border-radius: 10px;
+text-align: center;
+}
+header img{
+    width: 200px;
+    background: transparent;
+}
+.intro{
+    text-align: center;
+}
+ button{
+    background-color: cadetblue;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
+.media{
+    display: flex;
+    text-align: center;
+    
+}
+.media img{
+    width: 400px;
+}
+.solns img{
+    width: 400px;
+}
+.impact img{
+    width: 400px;
+}
+
+.meal, .field, .crops{
+border-radius: 10px;
+background: rgb(197,184,186);
+margin: 10px;
+text-align: center;
+}
+.solns{
+    display: flex;
+    border-radius: 10px;
+}
+.practices,.people,.nutrition{
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(197, 184, 184);
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+.impact{
+    display: flex;
+    text-align: center;
+}
+.classroom,.fields,.food{
+    border-radius: 10px;
+    background: rgb(197, 184, 186);
+    margin: 10px;
+}
+footer{
+    background: rgb(197, 184, 186);
+    border-radius: 10px;
+}
+.causes{
+    text-align: center;
+}
+
+.container h2 p{
+    text-align: center;
+}
+
+}
